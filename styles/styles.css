@@ -6,7 +6,7 @@
 #cover{
     margin: 0;
     padding-bottom: 20vh;
-    background-image: url("../media/img_portada.jpg");
+    background-image: url("../media/img_cover.jpg");
     background-size: cover;
 }
 
@@ -31,10 +31,6 @@
     font-weight: lighter;
 }
 
-.image_quienessomos{
-    padding: 5vw;
-}
-
 #call-to-action-cover{
     margin-top: 10vh;
     align-self: center;
@@ -45,20 +41,20 @@
     background: linear-gradient(180deg, rgba(81,141,160,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-.quienessomos{
+.about_us{
     padding-top: 5vh;
     font-family: "Inter", sans-serif;
     text-align: center;
 }
 
-.testimonios{
+.testimonials{
     padding-top: 10vh;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
-.uneteya{
+.join_us{
     padding-top: 5vh;
     font-family: "Inter", sans-serif;
     text-align: center;
@@ -68,11 +64,11 @@
     margin-top: 3rem;
 }
 
-#titulo_test1{
+#title_test1{
     font-weight: bold;
 }
 
-#titulo_test2{
+#title_test2{
     font-weight: bold;
 }
 
@@ -85,7 +81,7 @@
     align-items: center;
 }
 
-.image_qs {
+.image_as {
     align-items: center;
     width: 30vw;
     border-radius: 10px;
@@ -154,7 +150,7 @@ footer{
 .content_data, .content_data2{
     margin-top: 25px
 }
-.que-ofrecemos{
+.what-do-we-provide{
     padding-top: 10vh;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -177,7 +173,7 @@ footer{
         font-family: 'Inter Light', sans-serif;
         font-size: 1rem;
     }
-    .image_qs {
+    .image_as {
         align-items: center;
         width: 300px;
     }
@@ -215,7 +211,7 @@ footer{
         font-family: "Inter Light", sans-serif;
         font-size: 2rem;
     }
-    .image_qs {
+    .image_as {
         align-items: center;
         width: 350px;
     }
@@ -224,5 +220,14 @@ footer{
         font-weight: lighter;
         text-align: center;
         font-size: 1.5rem;
+    }
+}
+
+@media (max-height: 700px) {
+    footer {
+        padding: 10px;
+    }
+    .content_data2 p {
+        font-size: 14px;
     }
 }
